@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang = "de">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="script/script.js"></script>
+   </head>
+   <body>
+      <header>
+         <p>Aktuelle Wetterinformationen</p>
+      </header>
+      <main>
+         <section>
+            <h1>Stadtnamen eingeben</h1>
+            <form id="form_input">
+               <input type="text" name="ort" id="in_place" placeholder="Stadtname">
+               <button type="button" id="bt_search">Stadt suchen</button>
+            </form>
+	 </section>
+         <section id="wetter_angaben">
+            <h2>Aktuelle Wetterlage in <span id="location">...</span></h2>
+
+            <section id="wetter_par_1">	  
+               <p><b>Temperatur: </b> <span id="temp">-.--</span>°C</p>
+               <p><b>Luftdruck: </b> <span id="pressure">---</span>hPa</p>
+               <p><b>Feuchtigkeit: </b> <span id="humidity">--</span>%</p>
+               <p><b>geringste Temperatur: </b> <span id="temp_min">-.--</span>°C</p>
+               <p><b>höchste Temperatur Temperatur: </b> <span id="temp_max">-.--</span>°C</p>
+               <p><b>Windgeschwindigkeit: </b> <span id="speed">-.--</span>m/s</p>
+               <p><b>Windrichtung: </b> <span id="direction">---</span>°</p>
+            </section>
+		 
+            <section id="wetter_par_2">
+               <p><img id="weather_icon" src=""><span id="short_description"></span></p>
+            </section>
+         </section>
+      </main>
+      <footer>
+      </footer>
+   </body>
+</html>

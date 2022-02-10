@@ -1,0 +1,80 @@
+header p {
+   color: white; 
+   background-color: DodgerBlue;
+   font-size: 2.3em;
+   font-family: sans-serif;
+   padding: 0.7em;
+   margin: 0em 0em;
+   text-align: center;
+ }
+ 
+body {
+   width: 40em;
+}
+
+main {
+   background-color: Gainsboro;
+   padding: 0.2em 0.7em;
+   margin: 0em 0em;
+}
+
+h1 {
+   color: DodgerBlue;
+   font-size: 1.3em;
+   font-family: sans-serif;
+   text-align: center;
+}
+
+h2 {
+   color: black;
+   font-size: 1.5em;
+   font-family: sans-serif;
+   text-align: center;
+   grid-column: 1 / -1;
+}
+
+button {
+   color: white;
+   background-color: RoyalBlue;
+   border: 0;
+   border-radius: 0;
+}
+
+input {
+   text-align: center;	
+}
+
+form {
+   text-align: center;	
+}
+
+main p {
+   color: black; 
+   font-size: 0.8em;
+   font-family: sans-serif;
+}
+
+footer {
+   background-color: DodgerBlue;
+   padding: 1.2em;
+   margin: 0em 0em;
+}
+
+#wetter_angaben {
+   display: grid;
+   grid-template-columns: 1fr 17em;
+   margin-bottom: 4.5em;
+}
+
+#wetter_part_1 {
+   grid-column: 1;
+}
+
+#wetter_part_2 {
+   grid-column: 2;
+}
+
+#weather_icon {
+   vertical-align: middle;
+   margin-right: 1em;
+}
